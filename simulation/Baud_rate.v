@@ -1,7 +1,6 @@
 module Baud_rate (
     input        i_Clock,
     input        i_reset,
-    input        i_enable,
     input  [7:0] brg_reg,
     output wire  tick
 );
