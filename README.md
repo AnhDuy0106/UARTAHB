@@ -12,7 +12,7 @@ UART AHB bao gồm một AHB slave interface, đóng vai trò là thiết bị n
 
 -HSEL: Chọn UART là thiết bị được truy cập
 
--HREADY, HRESP: Dùng để báo trạng thái sẵn sàng hoặc phản hồi lỗi
+-HREADY: Dùng để báo trạng thái sẵn sàng hoặc phản hồi lỗi
 
 Cấu trúc và quá trình truyền dữ liệu của UART AHB:
 AHB-->fifo_tx-->TX-->RX-->fifo_rx-->AHB
